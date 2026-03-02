@@ -1,1 +1,25 @@
+# Jekyll configuration
+title: M3 Solution
+description: A Jekyll powered website
+author: alesalzillo2000-maker
+url: https://alesalzillo2000-maker.github.io/M3_solution
 
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown processor
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
