@@ -1,1 +1,84 @@
-<!DOCTYPE html><html lang="en"><head>    <meta charset="utf-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1">    <title>Module 3 Solution</title>        <link rel="stylesheet" href="css/bootstrap.min.css">    <link rel="stylesheet" href="css/styles.css">    <style>        /* Stili per distinguere il contenuto e garantire l'altezza richiesta */        .content-box {            background-color: #e7e7e7; /* Grigio chiaro per distinguersi */            padding: 20px;            margin-top: 20px;            margin-bottom: 20px;            border: 1px solid #333;            /* Altezza di 1100px per forzare lo scorrimento (requisito del compito) */            height: 1100px;         }        /* Colore di sfondo per il menu mobile per distinguerlo */        #collapsable-nav {            background-color: #f8f8f8;        }        .navbar-brand {            font-size: 1.5em;            font-weight: bold;        }    </style></head><body>  <nav class="navbar navbar-default">    <div class="container-fluid">      <div class="navbar-header">        <a class="navbar-brand" href="#">Food, LLC</a>                <button type="button" class="navbar-toggle collapsed visible-xs"                 data-toggle="collapse" data-target="#collapsable-nav">          <span class="icon-bar"></span>          <span class="icon-bar"></span>          <span class="icon-bar"></span>        </button>      </div>      <div id="collapsable-nav" class="collapse navbar-collapse">        <ul class="nav navbar-nav visible-xs text-center">          <li><a href="#section-content">Chicken</a></li>          <li><a href="#section-content">Beef</a></li>          <li><a href="#section-content">Sushi</a></li>        </ul>      </div>    </div>  </nav>  <div class="container">    <h1 class="text-center">Our Menu</h1>        <div class="row">      <div id="main-content" class="col-xs-12">        <div class="content-box" id="section-content">          <h2 class="text-center">Chicken</h2>          <p>            Lorem ipsum dolor sit amet, consectetur adipiscing elit.             (Ripeti questo testo molte volte per riempire lo spazio di 1100px!)            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.          </p>        </div>      </div>    </div>  </div>  <script src="js/jquery-2.1.4.min.js"></script>  <script src="js/bootstrap.min.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Solution</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        /* Stili per distinguere il contenuto e garantire l'altezza richiesta */
+        .content-box {
+            background-color: #e7e7e7; /* Grigio chiaro per distinguersi */
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+            /* Altezza di 1100px per forzare lo scorrimento (requisito del compito) */
+            height: 1100px; 
+        }
+        /* Colore di sfondo per il menu mobile per distinguerlo */
+        #collapsable-nav {
+            background-color: #f8f8f8;
+        }
+        .navbar-brand {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Food, LLC</a>
+        
+        <button type="button" class="navbar-toggle collapsed visible-xs" 
+                data-toggle="collapse" data-target="#collapsable-nav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav visible-xs text-center">
+          <li><a href="#section-content">Chicken</a></li>
+          <li><a href="#section-content">Beef</a></li>
+          <li><a href="#section-content">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="text-center">Our Menu</h1>
+    
+    <div class="row">
+      <div id="main-content" class="col-xs-12">
+        <div class="content-box" id="section-content">
+          <h2 class="text-center">Chicken</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            (Ripeti questo testo molte volte per riempire lo spazio di 1100px!)
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="css/bootstrap.min.css></script>
+  <script src="css/styles.css></script>  
+    
+</body>
+</html>
