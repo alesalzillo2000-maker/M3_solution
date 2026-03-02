@@ -1,0 +1,25 @@
+/* Stile per la sezione principale */
+.content-box {
+    background-color: #f5f5f5; /* Grigio chiaro */
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    min-height: 1000px; /* Altezza necessaria per lo scroll */
+}
+
+/* Colore di sfondo per il menu a tendina su mobile */
+#collapsable-nav {
+    background-color: #e7e7e7;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#collapsable-nav ul {
+    margin: 0;
+}
+
+#collapsable-nav li a {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
